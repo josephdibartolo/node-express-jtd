@@ -63,7 +63,7 @@ metadata:
   namespace: dev-jtd
 spec:
   applicationImage: dev.local/nodejs-express-jtd
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
